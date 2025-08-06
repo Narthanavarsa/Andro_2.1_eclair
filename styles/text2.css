@@ -1,0 +1,126 @@
+ P{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title{
+            font-size: 25px ;
+            font-weight: bold;
+            width: 390px;
+            line-height: 33px;
+            margin-bottom: 2px;
+        }
+
+
+        
+
+        .views{
+            color: rgb(106,96,96);
+            font-weight: 400;
+         font-size: 14px;
+            margin-top: 0px;  
+        }  
+        .author{
+            color: rgb(106,96,96);
+            margin-top: 22px;
+             font-size: 14px;
+             color: rgb(106,96,96);
+             margin-bottom: 22px;
+        }
+
+        .description{
+            width:310px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        .marilyn{
+            margin-left: 10px;
+            margin-right: 10px;
+            color:aqua;
+        }
+
+        .apple{
+            color: white;
+            background-color: rgb(204, 27, 27);
+            padding-left: 30px ;
+            padding-bottom:17px ;
+            padding-right:30px ;
+            padding-top:17px ;
+            text-align: center;
+        }
+
+        .apple:hover{
+            opacity: 0.8;
+        }
+
+        .apple1:hover{
+            cursor: pointer;
+        text-decoration:underline;}
+        
+        .arjun{
+            width: 300px;
+            border-radius: 20px;
+            border-color: red;
+            border-width: 20px;
+            object-position: left;
+            margin-right: 20px;
+            transition: opacity 0.15s;
+            
+        }
+        .arjun{
+            width: 100px;
+            height:100px;
+            object-position: center;
+            object-fit: cover;
+border-radius: 60px;
+        }
+        .arjun:hover{
+                opacity: 0.8;}
+        
+        .gutbacteria{
+            width: 184px;
+            border-radius: 1px;
+            border-color: red;
+            border-width: 20px;
+            border-style: solid;
+            object-position: left;
+            border-radius: 60px;
+        }
+
+        .search-bar7d{
+            border-radius:5px;
+            border-color: black;
+            margin-bottom: 20px;
+            border-width: thin;
+        }
+         .search-bar7e{
+            border-radius:40px;
+            box-shadow: 1px 1px 1px;
+            margin-bottom: 20px;
+            
+        }
+
+        .gpphoto{
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            object-fit: contain;  it gets shrink
+            object-position: left;
+            border-color: red;
+            border-width: 2px;
+            border-style: solid;
+            margin-right:1000px;
+
+
+        }
+
+        .asking{
+            color: gray;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        
+        .arjun2{            vertical-align: middle;
+            border-radius: 90px;
+            width:60px;
+            vertical-align: middle;
+        }
