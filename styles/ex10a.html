@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Layout Technique</title>
+    <style>
+        img{
+            width: 90px;
+            height: auto;
+            border-radius: 90px;
+            margin-right: 10px;
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            border: 1px solid gray;
+            border-radius: 8px;
+            padding: 10px;
+            width: 500px
+        }
+        .container .container2{
+          margin-right: 50px;
+        }
+        .container button{
+            border: none;
+            background-color:rgb(29, 161, 242);
+            padding: 6px;
+            color: white;
+            border-radius: 100px;
+            width: 80px;
+            height: 35px;
+            font-weight: 590;
+            
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="container1">
+        <img src="../boy in pixar style.jpg">
+    </div>
+    <div class="continer2">
+        Richard Parker<br>
+        Boy in Pixar<br>
+        Popular
+    </div>
+    <div class="container3">
+        <button>
+            Follow
+        </button>
+    </div>
+
+    </div>
+   
+
+</body>
+</html>

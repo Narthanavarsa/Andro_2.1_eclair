@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram Clone</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: WHITE;
+}
+
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    border-right: 1px solid #dbdbdb;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+/* Main feed */
+.feed {
+    flex:1;
+    padding: 20px;
+}
+
+/* Stories */
+.stories {
+    display: flex;
+    gap: 11px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.story {
+    text-align: center;
+}
+
+.story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #f56040;
+}
+
+/* Post */
+.post {
+    border: 1px solid #dbdbdb;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.idname{
+    width: 10px;
+
+}
+
+.post img {
+    width: 500px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h1>Instagram</h1>
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+        <a href="#"><i class="fa-regular fa-compass"></i> Explore</a>
+        <a href="#"><i class="fa-solid fa-clapperboard"></i> Reels</a>
+        <a href="#"><i class="fa-regular fa-envelope"></i> Messages</a>
+        <a href="#"><i class="fa-regular fa-heart"></i> Notifications</a>
+        <a href="#"><i class="fa-solid fa-plus"></i> Create</a>
+        <a href="#"><i class="fa-regular fa-user"></i> Profile</a>
+    </div>
+
+    <!-- Feed -->
+    <div class="feed">
+
+        <!-- Stories -->
+        <div class="stories">
+            <div class="story"><img src="../iron man.jpeg"><p>Robert Jr</p></div>
+            <div class="story"><img src="../vijay.jpeg"><p>Vijay</p></div>
+            <div class="story"><img src="../the flash.jpeg"><p>The Flash</p></div>
+        </div>
+
+        <!-- Post -->
+        <div class="post">
+            <div class="post-header">
+                
+                <strong>Brototype_official</strong>
+            </div>
+            <img src="../the end.jpg" alt="post image">
+            <p>Is that GPT5 end of Human Career?<i class="fa-solid fa-triangle-exclamation"></i></p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
